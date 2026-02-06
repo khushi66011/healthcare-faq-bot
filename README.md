@@ -114,6 +114,5 @@ Mobile app version
 
 👨‍💻 Developed By
 
-Khushi Bhawsar
+Khushi Bhawsar and Damyanti Lohiya
 
-📄 License
