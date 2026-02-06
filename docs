@@ -1,0 +1,139 @@
+.
+
+📘 HEALTHBOT CHATBOT PROJECT DOCUMENTATION
+1. Project Title
+
+Healthbot – Web Based Medical Chatbot Using Python Flask
+
+2. Introduction
+
+Healthbot is a web-based chatbot designed to provide basic medical guidance to users by interacting in a conversational format. The chatbot accepts symptoms from the user and provides preliminary advice using a Python Flask backend.
+
+The system consists of a frontend built using HTML, CSS, and JavaScript and a backend developed using Python Flask that processes user queries and returns suitable responses.
+
+This project demonstrates client-server communication, REST API integration, and rule-based chatbot logic.
+
+3. Objectives
+
+• Provide basic health assistance through chatbot interaction
+• Reduce manual consultation for minor symptoms
+• Implement frontend-backend communication
+• Learn Flask API development
+• Improve user experience using chatbot UI
+
+4. Technologies Used
+Frontend:
+
+HTML
+
+CSS
+
+JavaScript
+
+Backend:
+
+Python
+
+Flask Framework
+
+Flask-CORS
+
+5. System Architecture
+User Interface (HTML/CSS/JS)
+        |
+        |
+     HTTP POST Request
+        |
+        ↓
+Python Flask Server
+        |
+  Symptom Processing Logic
+        |
+     JSON Response
+        |
+        ↓
+ Chatbot Displays Reply
+
+6. Project Folder Structure
+healthbot/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── bot.png
+│
+├── backend/
+│   └── app.py
+
+7. Working of the System
+
+User opens chatbot interface
+
+User clicks "Get Started"
+
+User enters symptoms (fever, cold, pain etc.)
+
+Message is sent to Flask server
+
+Flask processes message using conditions
+
+Response is sent back as JSON
+
+Chatbot displays medical advice
+
+8. Backend Logic Explanation
+
+The Flask server receives POST requests containing user messages.
+Based on keywords, the system determines the response.
+
+Example:
+
+"fever" → asks about temperature
+
+"cold" → suggests rest and warm fluids
+
+"pain" → suggests doctor consultation
+
+9. Features
+
+✔ Chatbot-style UI
+✔ Python backend processing
+✔ REST API communication
+✔ Rule-based symptom checker
+✔ Responsive layout
+✔ Beginner-friendly logic
+
+10. Advantages
+
+• Easy to use
+• Fast response
+• Reduces workload on clinics
+• Available 24/7
+• Can be upgraded with AI
+
+11. Limitations
+
+• Not a replacement for doctor
+• Limited symptom database
+• Rule-based (not intelligent AI yet)
+
+12. Future Enhancements
+
+AI-based NLP chatbot
+
+Voice interaction
+
+Database for patient records
+
+Doctor recommendation system
+
+Medicine dosage suggestions
+
+13. Conclusion
+
+Healthbot successfully demonstrates how a chatbot can assist users with basic medical guidance using web technologies and Python backend.
+
+The project combines frontend design with backend logic, showing practical implementation of REST APIs and real-time user interaction.
+
+This system can be further enhanced into a full healthcare assistant using AI technologies.
